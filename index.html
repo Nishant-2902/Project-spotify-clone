@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone "clone"</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="help.css">
+
+<body>
+    <header class="header border flex">
+        <div class="logo"><img src="logo.svg" alt="logo" class="logo_ invert"></div>
+        <div class="home bggray2"><img class="home_ invert" src="home.svg" alt="home"></div>
+        <div class="search flex bggray2">
+            <div class="sicon"><img class="sicon_ invert" src="search.svg" alt=""></div>
+            <div class="stext">what do you want to play ?</div>
+            <div class="browse flex">
+                <div class="pipe2"> &#124; </div>
+                <div><img class="invert bimg" src="browes.svg" alt="browse"> </div>
+            </div>
+        </div>
+        <div class="head flex offwhite">
+            <div class="hover">Premium</div>
+            <div class="hover">Support</div>
+            <div class="hover">Download</div>
+            <div class="pipe">
+                <div>&#124;</div>
+            </div>
+            <div class="hbuttons flex">
+                <div><button class="installbtn"><img class="install invert" src="install.svg" alt="install"> Install
+                        App</button></div>
+                <div></div><button class="installbtn">Sing up</button>
+            </div>
+            <div></div><button class="loginbtn">Log in</button>
+        </div>
+
+        </div>
+        </div>
+    </header>
+    <div class="container flex ">
+        <div class="left border bggray1 bgradious">
+            <div class="library">
+                <div class="heading flex">
+                    <h4>Your library</h4>
+                    <div class="plus">&#43;</div>
+                </div>
+                <div class="create bggray2 bgradious">
+                    <div class="bolder">Create your own playlist.</div>
+                    <div style="margin-top: 10px;">It's easy. we will help you.</div>
+                    <button class="lbtn">Create playlist</button>
+                </div>
+                <div class="podcast bggray2 bgradious">
+                    <div class="bolder">Let's find some podcasts to follow.</div>
+                    <div style="margin-top: 10px;">We'll keep you updated on new episodes.</div>
+                    <button class="lbtn">Browes podcasts</button>
+                </div>
+                <footer class="lfooter flex offwhite">
+                    <div> Legal</div>
+                    <div>Safety &amp; Privacy Center</div>
+                    <div>Privacy Policy</div>
+                    <div>Cookies</div>
+                    <div>About Ads</div>
+                    <div>Accessibility</div>
+                </footer>
+                <div class="foot underline">Cookies</div>
+                <button class="english"><span class="invert ieng"><svg data-encore-id="icon" role="img"
+                            aria-hidden="true" viewBox="0 0 16 16" class="ieng">
+                            <path
+                                d="M8.152 16H8a8 8 0 1 1 .152 0m-.41-14.202c-.226.273-.463.713-.677 1.323-.369 1.055-.626 2.496-.687 4.129h3.547c-.06-1.633-.318-3.074-.687-4.129-.213-.61-.45-1.05-.676-1.323-.194-.235-.326-.285-.385-.296h-.044c-.055.007-.19.052-.391.296M4.877 7.25c.062-1.771.34-3.386.773-4.624q.148-.427.329-.806a6.51 6.51 0 0 0-4.436 5.43zm-3.334 1.5a6.51 6.51 0 0 0 4.436 5.43 8 8 0 0 1-.33-.806c-.433-1.238-.71-2.853-.772-4.624zm4.835 0c.061 1.633.318 3.074.687 4.129.214.61.451 1.05.677 1.323.202.244.336.29.391.297l.044-.001c.06-.01.19-.061.385-.296.226-.273.463-.713.676-1.323.37-1.055.626-2.496.687-4.129zm5.048 0c-.061 1.771-.339 3.386-.772 4.624q-.123.353-.268.674a6.5 6.5 0 0 0 4.071-5.298zm3.031-1.5a6.51 6.51 0 0 0-4.071-5.298q.145.322.268.674c.433 1.238.711 2.853.772 4.624z">
+                            </path>
+                        </svg></span> English</button>
+            </div>
+
+        </div>
+        <div class="right border bggray1 bgradious overflow no-scrollbar ">
+            <section class="trending">
+                <h2 class="underline">Trending songs</h2>
+                <div class="con1 contrainer1 flex no-scrollbar overflow">
+                    <div class="card">
+                        <img src="images/image11.jpeg" alt="song1">
+                        <svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="40" fill="#22b758" />
+                            <polygon points="40,30 70,50 40,70" fill="black" />
+                        </svg>
+                        <h3 class="underline">Sapphire</h3>
+                        <p class="underline">Ed Sheeran</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/image12.jpeg" alt="song1">
+                        <svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="40" fill="#22b758" />
+                            <polygon points="40,30 70,50 40,70" fill="black" />
+                        </svg>
+                        <h3 class="underline">Shaky</h3>
+                        <p class="underline">Sanju Rathod,G-SPXRK</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/image13.jpeg" alt="song1">
+                        <svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="40" fill="#22b758" />
+                            <polygon points="40,30 70,50 40,70" fill="black" />
+                        </svg>
+                        <h3 class="underline">Muththa Mazhai</h3>
+                        <p class="underline">A.R.Rahman,Chinmayi</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/image14.jpeg" alt="song1">
+                        <svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="40" fill="#22b758" />
+                            <polygon points="40,30 70,50 40,70" fill="black" />
+                        </svg>
+                        <h3 class="underline">Moose print</h3>
+                        <p class="underline">Sidhu Moose Wala</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/image15.jpeg" alt="song1">
+                        <svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="40" fill="#22b758" />
+                            <polygon points="40,30 70,50 40,70" fill="black" />
+                        </svg>
+                        <h3 class="underline">Glass animal</h3>
+                        <p class="underline">Dreamland</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/image16.jpeg" alt="song1">
+                        <svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="40" fill="#22b758" />
+                            <polygon points="40,30 70,50 40,70" fill="black" />
+                        </svg>
+                        <h3 class="underline">Saiyaara (From Saiyaara)</h3>
+                        <p class="underline">Tanishk Bagchi</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/image17.jpeg" alt="song1">
+                        <svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="40" fill="#22b758" />
+                            <polygon points="40,30 70,50 40,70" fill="black" />
+                        </svg>
+                        <h3 class="underline">Chirapunji</h3>
+                        <p class="underline">Nihal Sadiq</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/image18.jpeg" alt="song1">
+                        <svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="40" fill="#22b758" />
+                            <polygon points="40,30 70,50 40,70" fill="black" />
+                        </svg>
+                        <h3 class="underline">Long time no see</h3>
+                        <p class="underline">Taimour Baig</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/image19.jpeg" alt="song1">
+                        <svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="40" fill="#22b758" />
+                            <polygon points="40,30 70,50 40,70" fill="black" />
+                        </svg>
+                        <h3 class="underline">Papa meri jaan</h3>
+                        <p class="underline">Sonu Nigam</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/image110.jpeg" alt="song1">
+                        <svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="40" fill="#22b758" />
+                            <polygon points="40,30 70,50 40,70" fill="black" />
+                        </svg>
+                        <h3 class="underline">Laal pari</h3>
+                        <p class="underline">Yo Yo Honey Singh</p>
+                    </div>
+                </div>
+
+            </section>
+            <section class="popular trending">
+                <h2 class="underline">Popular artists</h2>
+                <div class="contrainer1 flex no-scrollbar overflow">
+                    <div class="circle">
+                        <img src="images/a1.jpeg" alt="artist">
+                        <h3 class="underline">Pritam</h3>
+                        <p class="underline">Artist</p>
+                    </div>
+                    <div class="circle">
+                        <img src="images/a2.jpeg" alt="artist">
+                        <h3 class="underline">A.R. Rahman</h3>
+                        <p class="underline">Artist</p>
+                    </div>
+                    <div class="circle">
+                        <img src="images/a3.jpeg" alt="artist">
+                        <h3 class="underline">Yo Yo Honey Singh</h3>
+                        <p class="underline">Artist</p>
+                    </div>
+                    <div class="circle">
+                        <img src="images/a4.jpeg" alt="artist">
+                        <h3 class="underline">Sachin-Jigar</h3>
+                        <p class="underline">Artist</p>
+                    </div>
+                    <div class="circle">
+                        <img src="images/a5.jpeg" alt="artist">
+                        <h3 class="underline">Vishal-Shekhar</h3>
+                        <p class="underline">Artist</p>
+                    </div>
+                    <div class="circle">
+                        <img src="images/a6.jpeg" alt="artist">
+                        <h3 class="underline">Atif Aslam</h3>
+                        <p class="underline">Artist</p>
+                    </div>
+                    <div class="circle">
+                        <img src="images/a7.jpeg" alt="artist">
+                        <h3 class="underline">Udit Narayan</h3>
+                        <p class="underline">Artist</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <footer class="spotify-footer ">
+                <div class="footer-content ">
+                    <div class="footer-columns">
+                        <div class="footer-col">
+                            <h4>Company</h4>
+                            <ul>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Jobs</a></li>
+                                <li><a href="#">For the Record</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Communities</h4>
+                            <ul>
+                                <li><a href="#">For Artists</a></li>
+                                <li><a href="#">Developers</a></li>
+                                <li><a href="#">Advertising</a></li>
+                                <li><a href="#">Investors</a></li>
+                                <li><a href="#">Vendors</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Useful links</h4>
+                            <ul>
+                                <li><a href="#">Support</a></li>
+                                <li><a href="#">Free Mobile App</a></li>
+                                <li><a href="#">Popular by Country</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Spotify Plans</h4>
+                            <ul>
+                                <li><a href="#">Premium Individual</a></li>
+                                <li><a href="#">Premium Duo</a></li>
+                                <li><a href="#">Premium Family</a></li>
+                                <li><a href="#">Premium Student</a></li>
+                                <li><a href="#">Spotify Free</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-social">
+                            <a href="#" aria-label="Instagram" class="social-icon">
+                                <svg width="32" height="32" fill="#fff" viewBox="0 0 24 24">
+                                    <circle cx="12" cy="12" r="7.5" stroke="#222" stroke-width="1" fill="none" />
+                                    <rect x="2" y="2" width="20" height="20" rx="6" fill="none" stroke="#fff"
+                                        stroke-width="2" />
+                                    <circle cx="18" cy="6" r="1" fill="#fff" />
+                                </svg>
+                            </a>
+                            <a href="#" aria-label="Twitter" class="social-icon">
+                                <svg width="32" height="32" fill="#fff" viewBox="0 0 24 24">
+                                    <path
+                                        d="M22.46 6c-.77.35-1.6.59-2.47.69a4.3 4.3 0 0 0 1.88-2.37 8.59 8.59 0 0 1-2.72 1.04A4.28 4.28 0 0 0 16.11 4c-2.37 0-4.29 1.92-4.29 4.29 0 .34.04.67.1.99A12.17 12.17 0 0 1 3.11 5.15a4.28 4.28 0 0 0 1.33 5.72c-.7-.02-1.36-.22-1.94-.53v.05c0 2.07 1.47 3.8 3.42 4.19a4.3 4.3 0 0 1-1.93.07c.54 1.68 2.11 2.9 3.97 2.93A8.61 8.61 0 0 1 2 19.54a12.15 12.15 0 0 0 6.58 1.93c7.89 0 12.22-6.54 12.22-12.22 0-.19 0-.37-.01-.56A8.7 8.7 0 0 0 24 4.59a8.51 8.51 0 0 1-2.54.7z" />
+                                </svg>
+                            </a>
+                            <a href="#" aria-label="Facebook" class="social-icon">
+                                <svg width="32" height="32" fill="#fff" viewBox="0 0 24 24">
+                                    <path
+                                        d="M22.675 0h-21.35C.596 0 0 .592 0 1.326v21.348C0 23.406.596 24 1.325 24H12.82v-9.294H9.692v-3.622h3.127V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.797.143v3.24l-1.918.001c-1.504 0-1.797.715-1.797 1.763v2.312h3.587l-.467 3.622h-3.12V24h6.116C23.404 24 24 23.406 24 22.674V1.326C24 .592 23.404 0 22.675 0" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <span>© 2025 Spotify AB</span>
+                    </div>
+                </div>
+            </footer>
+
+
+        </div>
+
+        <section class="playbar flex ">
+            <div class="songinfo">MUSIC</div>
+            <div class="playbtn">
+                <span> <svg width="38" height="38" viewBox="0 0 48 48" fill="white" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="24" cy="24" r="22" stroke="white" stroke-width="4" fill="none" />
+                        <polygon points="34,14 22,24 34,34" fill="white" />
+                        <polygon points="24,14 12,24 24,34" fill="white" />
+                        <rect x="8" y="14" width="4" height="20" fill="white" />
+                    </svg> </span>
+                <span id="play"> <svg width="38" height="38" viewBox="0 0 48 48" fill="white" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="24" cy="24" r="22" stroke="white" stroke-width="4" fill="none" />
+                        <polygon points="18,14 36,24 18,34" fill="white" />
+                    </svg>
+                </span>
+                <span>
+                    <svg width="38" height="38" viewBox="0 0 48 48" fill="white" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="24" cy="24" r="22" stroke="white" stroke-width="4" fill="none" />
+                        <polygon points="14,14 26,24 14,34" fill="white" />
+                        <polygon points="24,14 36,24 24,34" fill="white" />
+                        <rect x="36" y="14" width="4" height="20" fill="white" />
+                    </svg>
+
+                </span>
+            </div>
+            <div id="timeduration" class="time">
+                <div class="bar">
+                </div>
+                <div class="pointer"></div>
+            </div>
+
+            <div class="timems"></div>
+            <div class="ctimems"></div>
+
+        </section>
+
+    </div>
+    <footer class="footer border flex">
+        <div>
+            <p style="margin-top: 9px;">Preview of Spotify</p>
+            <p style="margin-bottom: 5px;">Sign up to get unlimited songs and podcasts with occasional ads. No credit
+                card needed.</p>
+        </div>
+        <div><button class="signupfree">Sign up free</button></div>
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>

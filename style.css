@@ -1,0 +1,485 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+.header {
+    height: 60px;
+    gap: 5px;
+    position: relative;
+    position: sticky;
+    top: 0;
+}
+
+.head {
+    gap: 12px;
+    align-items: center;
+    margin-left: auto;
+    font-weight: 800;
+    font-size: medium;
+}
+
+button {
+    font-weight: 800;
+    font-size: small;
+    cursor: pointer;
+}
+
+.loginbtn {
+    background-color: white;
+    color: black;
+    padding: 15px 30px 15px 30px;
+    border-radius: 35px;
+    margin: 6px;
+}
+
+.installbtn {
+    background-color: black;
+    color: #b2b2b2;
+    border: none;
+}
+
+.installbtn:hover {
+    color: white;
+    font-size: 15px;
+}
+
+.logo {
+    margin: 3px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 5px;
+    align-content: center;
+    overflow: hidden;
+
+}
+
+.home {
+    margin: 3px;
+    border: 1px solid black;
+    border-radius: 50%;
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.home_ {
+    position: relative;
+    height: 20px;
+    width: 35px;
+    left: 6px;
+    zoom: 150%;
+}
+
+.logo_ {
+    position: relative;
+    height: 24px;
+    width: 30px;
+    left: 3px;
+    zoom: 170%;
+}
+
+.search {
+    border: 1px solid black;
+    width: 30vw;
+    margin: 3px;
+    border-radius: 44px;
+    align-content: center;
+    color: #b2b2b2;
+    /* justify-content: center; */
+}
+
+.sicon {
+    align-content: center;
+    justify-content: center;
+}
+
+.sicon_ {
+    width: 30px;
+    height: 25px;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.stext {
+    align-content: center;
+    justify-content: center;
+    font-size: larger;
+}
+
+.left {
+    position: relative;
+    margin: 5px;
+    width: 25.5vw;
+    height: 80vh;
+}
+
+.right {
+    margin: 5px;
+    width: 73vw;
+    position: absolute;
+    right: 0;
+    height: 80vh;
+}
+
+.heading {
+    justify-content: space-between;
+    padding-left: 7px;
+    padding-right: 10px;
+    margin: 8px;
+    padding: 15px;
+}
+
+.create {
+    margin: 10px;
+    margin-top: 30px;
+    padding: 17px;
+}
+
+.podcast {
+    margin: 10px;
+    margin-top: 30px;
+    padding: 17px;
+}
+
+.lbtn {
+    border: none;
+    padding: 5px 15px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.plus {
+    font-weight: bolder;
+}
+
+.list {
+    margin: 10px;
+    margin-top: 50px;
+    /* overflow: visible; */
+    list-style: none;
+
+}
+
+.list li {
+    margin: 8px;
+}
+
+.lfooter {
+    gap: 10px;
+    width: 23vw;
+    flex-wrap: wrap;
+    margin-left: 4px;
+    font-size: small;
+    position: absolute;
+    bottom: 23%;
+    padding-left: 15px;
+}
+
+.foot {
+    font-size: medium;
+    position: absolute;
+    bottom: 17%;
+    padding-left: 16px;
+
+}
+
+.english {
+    font-size: small;
+    position: absolute;
+    bottom: 10%;
+    margin-left: 26px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 50px;
+    bottom: 30px;
+}
+
+.ieng {
+    width: 15px;
+    height: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.install {
+    height: 10px;
+}
+
+.pipe {
+    font-size: xx-large;
+    font-weight: bolder;
+    margin: 20px 20px;
+    color: white;
+}
+
+.hbuttons {
+    gap: 18px;
+}
+
+
+.trending {
+    margin: 3%;
+}
+
+.trending h2 {
+    margin-bottom: 25px;
+}
+
+.container1 {
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 175px;
+    padding: 5px;
+    margin: 5px;
+    height: 250px;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.card img {
+    width: 180px;
+    border-radius: 7px;
+}
+.card:hover{
+    background-color: #1f1f1f;
+    border-radius: 10px;
+}
+
+.card svg {
+    position: absolute;
+    scale: 0.5;
+    z-index: 19;
+    bottom: 30px;
+    right: -15px;
+    opacity: 0;
+    transition: all 0.3s ease-in;
+}
+.card:hover svg{
+    opacity: 1;
+    bottom: 55px;
+}
+.circle{
+     width: 175px;
+    padding: 5px;
+    margin: 5px;
+    height: 250px;
+    cursor: pointer;
+    margin-left: 25px;
+}
+.circle:hover{
+    background-color: #1f1f1f;
+    border-radius: 10px;
+}
+.circle img{
+    width: 180px;
+    border-radius: 50%;
+}
+.spotify-footer {
+  background: #181818;
+  color: #fff;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  padding: 40px 0 0 0;
+  border-top: 1px solid #222;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.footer-col {
+  min-width: 150px;
+  margin-bottom: 24px;
+}
+
+.footer-col h4 {
+  font-size: 1.05em;
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  color: #b3b3b3;
+  text-decoration: none;
+  font-size: 1em;
+  transition: color 0.2s;
+}
+
+.footer-col ul li a:hover {
+  color: #f5f5f5;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.social-icon {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  background: #222;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icon:hover {
+  background: #edf3ef;
+}
+
+.social-icon svg {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.footer-bottom {
+  margin-top: 32px;
+  padding-bottom: 20px;
+  border-top: 1px solid #222;
+  text-align: left;
+}
+
+.footer-bottom span {
+  color: #b3b3b3;
+  font-size: 0.95em;
+}
+
+.playbar{
+    background-color: #1f1f1f72;
+    z-index: 1000;
+    height: 10vh;
+    width: 70vw;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    top: 620px;
+    left: 430px;
+    position: fixed;
+    border-radius: 8px;
+}
+.playbtn{
+    margin-left: -400px;
+    position: fixed;
+    right: 600px;
+}
+.playbtn svg{
+    margin: 0px 10px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.274);
+    
+}
+
+.playbtn svg:hover{
+    scale: 1.07;
+}
+
+.songinfo{
+    width: 300px;
+    height: 8vh;
+    margin-left: 60px;
+    align-items: center;
+    align-content: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-decoration:underline;
+    overflow:hidden;
+    
+}
+.time{
+     align-items: center;
+    align-content: center;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-right: 60px;
+    position: absolute;
+    right: 0px;
+
+}
+.timems{
+    position: relative;
+    bottom: -15px;
+    right: 150px;
+    color: white;
+    font-weight: bolder;
+}
+.ctimems{
+    position: relative;
+    bottom: -15px;
+    right: 50px;
+    color: white;
+    font-weight: bolder;
+}
+.bar{
+    border: 2px solid white;
+    width: 30vw;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.pointer{
+    position: relative;
+    height: 10px;
+    width: 10px;
+    color: rgb(100, 99, 99);
+    background-color: rgb(60, 60, 60);
+    border-radius: 50%;
+    bottom: 7px;
+    left: 0%;
+    transition: left 0.5s;
+}
+
+.footer {
+    position: sticky;
+    bottom: 0;
+    height: 60px;
+    background-color: #7c60c4;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer p{
+    margin-left: 20px;
+}
+.signupfree{
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    margin-right: 30px;
+    border: none;
+    border-radius: 30px;
+}

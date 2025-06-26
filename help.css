@@ -1,0 +1,76 @@
+.border {
+    border: 2px solid black;
+}
+
+.flex {
+    display: flex;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.bggray1 {
+    background-color: #121212;
+}
+
+.bggray2 {
+    background-color: #1f1f1f;
+}
+
+.bimg {
+    width: 25px;
+    height: 25px;
+}
+
+.browse {
+    align-items: center;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.pipe2 {
+    margin-right: 10px;
+    font-size: larger;
+    font-weight: lighter;
+}
+
+.bgradious {
+    border-radius: 10px;
+}
+
+.overflow {
+    overflow: auto;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;    
+}
+.offwhite{
+    color: #b2b2b2;
+    cursor: pointer;
+}
+.hover:hover{
+    color: white;
+}
+.underline:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.spotify-footer li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.bolder{
+    font-weight:bolder;
+}
+
+button:hover{
+    scale: 1.07;
+}
